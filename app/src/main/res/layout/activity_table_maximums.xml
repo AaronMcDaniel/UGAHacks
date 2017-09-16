@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Maximum Numbers of Seats per Table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maxTabletext"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="40dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:text="Table #2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/table2"
+        android:layout_below="@+id/table1"/>
+    <TextView
+        android:text="Table #3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+
+        android:id="@+id/table3"
+        android:layout_below="@+id/table2"/>
+
+
+    <TextView
+        android:text="Table #4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table4"
+        android:paddingTop="30dp"
+
+        android:layout_below="@+id/table3"/>
+
+    <TextView
+        android:text="Table #5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table5"
+        android:paddingTop="30dp"
+
+        android:layout_below="@id/table4"
+        />
+
+    <EditText
+        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="enter table max"
+        android:id="@+id/table1max"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="enter table max"
+        android:layout_below="@+id/table1max"
+        android:id="@+id/table2max"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="enter table max"
+        android:layout_below="@+id/table2max"
+        android:id="@+id/table3max"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="enter table max"
+        android:layout_below="@+id/table3max"
+        android:id="@+id/table4max"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="enter table max"
+        android:layout_below="@+id/table4max"
+        android:id="@+id/table5max"
+        android:inputType="number"
+
+        />
+
+
+    <Button
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/continueToMenu"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:id="@+id/table1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout
+    >
